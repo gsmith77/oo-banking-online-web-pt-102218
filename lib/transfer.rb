@@ -38,7 +38,7 @@ end
     @sender.balance = @sender.balance + @amount
     @status = "reversed"
   else execute_transaction == false
-    @status = "reversed"
+    @status = "rejected"
   end
   end
   
