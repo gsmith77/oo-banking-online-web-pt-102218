@@ -29,14 +29,10 @@ class Transfer
   else @status == "complete"
     @status = "complete"
   end
-  
-  def reverse_transaction
-    
-  end
-  
-  
 end
-  
-  
+
+
+  def reverse_transaction
+  end
   
 end
