@@ -37,6 +37,7 @@ end
     @receiver.balance = @receiver.balance - @amount
     @sender.balance = @sender.balance + @amount
     @status = "reversed"
+    binding.pry
   else execute_transaction == false
     @status = "rejected"
   end
