@@ -33,15 +33,13 @@ end
 
 
   def reverse_transfer
-    binding.pry
     if @status = "complete"
     @receiver.balance = @receiver.balance - @amount
     @sender.balance = @sender.balance + @amount
     @status = "reversed"
-    elsif @status = "pending"
-    @status = "pending"
   else @status = "reversed"
     @status = "reversed"
+    binding.pry
   end
   end
   
