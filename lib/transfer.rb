@@ -37,6 +37,8 @@ end
     @receiver.balance = @receiver.balance - @amount
     @sender.balance = @sender.balance + @amount
     @status = "reversed"
+    elsif @status = "pending"
+    @status = "pending"
   else @status = "reversed"
     @status = "reversed"
   end
