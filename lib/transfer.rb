@@ -38,7 +38,7 @@ end
     @sender.balance = @sender.balance + @amount
     @status = "reversed"
   else @status = "reversed"
-    @status = "complete"
+    @status = "reversed"
   end
   end
   
